@@ -1,0 +1,15 @@
+#parent{
+    width:80%;
+    height:600px;
+    border:2px solid red;
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+}
+#parent>div:nth-child(9){
+    background-color: blue;
+}
+.box{
+width:200px;
+height: 150px;
+border: 1px solid red;
+}
